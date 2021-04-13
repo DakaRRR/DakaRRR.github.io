@@ -3,8 +3,8 @@ body {
     font-family:'Poppins', sans-serif;;
     font-size:20px;
     line-height: 1.6;
-    color: bisque;
-    background: url(../images/background.jpg) center no-repeat;
+    color: whitesmoke;
+    background: url(../images/background.jpg) repeat;
 } 
 
 *,
@@ -19,10 +19,9 @@ h1,h2,h3,h4,h5,h6 {
 
 .container {
     width: 100%;
-    max-width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
 }
-
 
 
 
@@ -37,13 +36,12 @@ h1,h2,h3,h4,h5,h6 {
 
 
 .intro_left {
-    width: 100%;
+    width: 70%;
     max-width: 1400px;
     float: left; 
 }
 
 .intro_image {
-    width: 1400px;
     height: 680px;
     margin-top: 100px;
     background: url(../images/1.jpg) left bottom no-repeat;
@@ -53,7 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 .intro_hello {
     position: absolute;
     top: 350px;
-    left: 700px;
+    left: 600px;
     text-align: center;
 }
 
@@ -81,25 +79,39 @@ h1,h2,h3,h4,h5,h6 {
 
 .intro_right {
     float: right;
-    width: 100%;
+    width: 30%;
     max-width: 500px;
 }
 
 .me {
-   width: 300px; 
-   height: 300px; 
+   width: 200px; 
+   height: 200px; 
    border-radius: 50%; 
    margin-top: 100px;
+   margin-left: 150px;
 }
 
+.intro_text {
+   text-align: center;
+}
 
+.intro_name {
+    font-size: 40px;
+    line-height: 80px;
+}
 
+.intro_edu {
+   line-height: 35px;
+}
+
+.intro_contacts{
+    margin-top: 150px;
+}
 
 /*Header*/
 .header {
     width: 100%;
     padding-top:30px;
-    
     position: absolute;
     top:0;
     left:0;
@@ -160,3 +172,81 @@ nav{
 .nav_link:hover:after{
     opacity: 1;
 }
+
+/* Section */
+.section {
+    padding: 30px 0;
+}
+
+.section_header {
+    width: 100%;
+    width: 800px;
+    margin:0 auto 30px;
+    text-align: left;
+}
+
+
+.section_title {
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+}
+
+.section_subtitle {
+    font-size: 25px;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 0.25em;
+}
+
+.section_subtitle:after {
+    display: block;
+    content: "";
+    width: 225px;
+    height: 3px;
+    margin: 30px 0;
+    background-color: coral;
+}
+
+.section_text {
+    color:bisque;
+}
+
+
+/* Skills */
+
+.skills{
+    line-height: 2.5;
+}
+
+.skills_subject {
+
+}
+
+.skills_grade {
+    display: block;
+    content: "";
+    width: 225px;
+    height: 3px;
+    background-color: coral;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
