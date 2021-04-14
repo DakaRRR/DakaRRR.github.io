@@ -213,30 +213,66 @@ nav{
 /* Skills */
 
 .skills {
-    
+    position: relative;
 }
 
 .skills_subject {
     line-height: 2.5;
 }
 
-.skills_subject:after {
-    content: "";
+.skills_rating1 {
     width: 500px;
     height: 4px;
-    background-color: coral;
+    background:linear-gradient(to right, coral 30%, bisque 70%);
     float:right;
     margin-top:25px;
 }
 
+.skills_rating2 {
+    width: 500px;
+    height: 4px;
+    background:linear-gradient(to right, coral 40%, bisque 60%);
+    float:right;
+    margin-top:25px;
+}
+
+.skills_rating3 {
+    width: 500px;
+    height: 4px;
+    background:linear-gradient(to right, coral 20%, bisque 80%);
+    float:right;
+    margin-top:25px;
+}
 
 /* Contacts */
 
+.contacts {
+    display: flex;
+}
 
+.contacts_item {
+    margin-top:50px;
+    flex:1 1 0;
+    padding-left: 90px;
+    position: relative;
+    justify-content: space-between;
+}
 
+.contacts_icon {
+    position: absolute;
+    top:0;
+    left:0;
+    z-index: 1;
+}
 
+.contacts_title {
+    text-transform: uppercase;
+    color: bisque;
+}
 
-
+.contacts_text {
+    font-size: 15px;
+}
 /* Footer */
 
 .footer{
